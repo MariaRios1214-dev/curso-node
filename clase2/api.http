@@ -13,3 +13,18 @@ Content-Type: application/json
       "transform"
   ]
 }
+
+###Obtener lista Pokemon .- express
+GET http://localhost:1211/pokemon/ditto
+
+###PAra crear un pokemon - express 
+POST http://localhost:1211/pokemon
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "moves": [
+      "transform"
+  ]
+}
